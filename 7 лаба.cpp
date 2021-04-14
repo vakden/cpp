@@ -12,7 +12,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	string str, slovo;
 	int nachalo = 0, konec = 0, kolv = 0, j = 0, leks, k = 0;
-	cout << "Ââåäèòå ñòðîêó:" << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã±Ã²Ã°Ã®ÃªÃ³:" << endl;
 	getline(cin, str);
 	while (str[0] == ' ')
 	{
@@ -20,7 +20,7 @@ int main()
 	}
 	if (str.find_first_not_of(' ', nachalo) == -1 || str.empty())
 	{
-		cout << "Âàøà ñòðîêà ïóñòàÿ èëè ñîñòîèò òîëüêî èç ðàçäåëèòåëåé!" << endl;;
+		cout << "Ã‚Ã Ã¸Ã  Ã±Ã²Ã°Ã®ÃªÃ  Ã¯Ã³Ã±Ã²Ã Ã¿ Ã¨Ã«Ã¨ Ã±Ã®Ã±Ã²Ã®Ã¨Ã² Ã²Ã®Ã«Ã¼ÃªÃ® Ã¨Ã§ Ã°Ã Ã§Ã¤Ã¥Ã«Ã¨Ã²Ã¥Ã«Ã¥Ã©!" << endl;;
 		system("pause");
 		return 0;
 	}
@@ -107,7 +107,7 @@ int main()
 		k = 0;
 	}
 
-	cout << "Ïðåîáðàçîâàííàÿ ñòðîêà: " << endl;
+	cout << "ÃÃ°Ã¥Ã®Ã¡Ã°Ã Ã§Ã®Ã¢Ã Ã­Ã­Ã Ã¿ Ã±Ã²Ã°Ã®ÃªÃ : " << endl;
 	cout << str << endl;
 	delete[] sarr;
 	system("pause");
